@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: white;
+  color: black;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white;
+  border-bottom: 20px solid #fbd4e6;
+}
+
+.navbar .logo img {
+  height: 55px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #f472b6; /* Pink on hover */
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: right;
+}
+
+.hero img {
+  width: 50%;
+  height: auto;
+  display: block;
+}
+
+.hero-text {
+  position: absolute;
+  right: 20px;
+  top: 250px;
+  transform: translateY(-50%);
+  font-size: 32px;
+  font-weight: bold;
+  color: #e24a78;
+  text-align: left;
+  line-height: 1.5;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fde9f2;
+  padding: 40px 30px;
+}
+
+.about-text {
+  width: 60%;
+}
+
+.about-text h2 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.about-text p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.about-img img {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Sneak Peek Section */
+.sneakpeek {
+  background-color: #fde9f2;
+  text-align: center;
+  padding: 40px 40px;
+  border-top: 55px solid #fbd4e6;
+}
+
+.sneakpeek h3 {
+  font-size: 18px;
+  margin-bottom: 80px;
+}
+
+.apps {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.apps img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.apps-caption {
+  font-size: 12px;
+  letter-spacing: 1px;
+}

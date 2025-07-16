@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+#superwrapper{background-color: #fde9f2; width: 1050px; margin-left: 228px}
+
+
+body {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  font-family: 'Georgia', serif;
+  background-color: white;
+  color: #000;
+}
+
+.contact-section {
+  background-color: #fde9f2;
+  padding: 40px 20px 60px;
+  border-top: 50px solid #fbd4e6;
+  border-bottom: 85px solid #fbd4e6;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 5000;
+  letter-spacing: 1px;
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  font-size: 15px;
+  text-align: left;
+  line-height: 1.8;
+  max-width: 300px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.icon-circle {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.icon-circle:hover {
+  background-color: #fbd4e6;
+}
+
+.icon-circle i {
+  font-size: 18px;
+}
+
+.home-link {
+  text-align: right;
+  margin-top: 40px;
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+.home-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.home-link a:hover {
+  text-decoration: underline;
+}
